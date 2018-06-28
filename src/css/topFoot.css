@@ -1,0 +1,355 @@
+﻿.top{
+    width:100%;
+    min-width: 1120px;
+    padding-top: 25px;  
+}
+.logo{
+    cursor:pointer;
+    padding-bottom: 25px;
+}
+.rqbaoNav{
+    width: 850px;
+    text-align: right;
+    line-height: 50px;
+    padding-bottom: 25px;
+}
+
+.rqbaoNav a{
+    font-size: 16px;
+    color: #333;
+    font-family: 'PingFangSC-Semibold';
+    padding-right: 45px;
+}
+.user{
+    position: relative;
+    padding-top: 9px;
+    height: 75px;
+    padding-left: 15px;
+}
+.userImg{
+    width: 37px;
+    height: 37px;
+    background: url(../images/imgs1.png) no-repeat left -211px;
+}
+.userBox{
+    display: none;
+    position: absolute;
+    z-index: 9;
+    left: -55px;
+    top: 55px;
+    width:180px;
+    border:1px solid #dddddd;
+    text-align: center;
+    background: #fff;
+}
+.headPortrait{
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.userList{
+    width: 100%;
+}
+
+.userList li{
+    padding: 0 20px;
+}
+.userList li a{
+    display: block;
+    line-height: 43px;
+    border-bottom: 1px dashed #dedede;
+    font-size: 14px;
+    color: #666;
+    font-family: 'PingFangSC-Regular';  
+}
+.userList li.nobor a{
+    border-bottom: none;
+}
+.user:hover{
+    cursor: pointer;
+}
+.user:hover .userImg{
+    background: url(../images/imgs1.png) no-repeat -38px -211px;
+}
+.user:hover .userBox{
+    display: block;
+}
+.problemLogo{
+    width: 37px;
+    height: 37px;
+    margin-top: 9px;
+    margin-left: 47px;
+    background: url(../images/imgs1.png) no-repeat left -250px;
+}
+.problemLogo:hover{
+    cursor: pointer;
+    background: url(../images/imgs1.png) no-repeat -38px -250px;
+}
+
+/*footer*/
+.footer{
+    border-top: 1px solid #e2e2e2;
+}
+.foot1{
+    padding:100px 10px 20px;
+    border-bottom: 1px dashed #dedede;
+}
+.foot1 ul{
+    width: 206px;
+}
+.foot1 li{
+    padding-bottom: 25px;
+}
+.contact{
+    width: 276px;
+    text-align: right;
+}
+.contact strong{
+    line-height: 24px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #333;
+    font-family: 'PingFangSC-Regular';
+}
+.contact b{
+    line-height: 35px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #666;
+    font-family: 'PingFangSC-Regular';
+}
+.contactWay{
+    padding-left: 220px;
+}
+.weChat,.qq{
+    position: relative;
+    width: 28px;
+    padding-left: 10px;
+}
+.weChatBox{
+    display: none;
+    position: absolute;
+    border: 1px solid #dddddd;
+    background: #fff;
+    padding: 5px;
+    padding-right: 0;
+    right: 30px;
+    top: -38px;
+}
+.weChatBox img{
+    width: 74px;
+    height: 74px;
+    float: left;
+    padding-right: 5px;
+}
+.qqBox{
+    display: none;
+    width: 404px;
+    position: absolute;
+    top: -79px;
+    left: -404px;
+    border: 1px solid #dddddd;
+    background: #fff;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 13px;
+}
+.qqBox h4{
+    font-size: 16px;
+    color: #333;
+    padding-top: 25px;
+    margin: 0;
+}
+.qqBox p span{
+    font-size: 12px;
+    color: #999;
+    font-family: 'PingFangSC-Regular';
+}
+.qqBox ul{
+    width: 100%;
+    padding-top: 15px;
+}
+.qqBox ul li{
+    width: 180px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+    font-family: 'PingFangSC-Regular';
+    padding-bottom: 10px;
+}
+.qqBox ul li span{
+    color: #fb3945;
+}
+.weChatImg{
+    width: 18px;
+    height: 18px;
+    background: url(../images/imgs1.png) no-repeat -40px -2px;
+}
+.qqImg{
+    width: 18px;
+    height: 18px;
+    background: url(../images/imgs1.png) no-repeat -69px -2px;
+}
+.weChat:hover{
+    cursor: pointer;
+}
+.weChat:hover .weChatImg{
+    background: url(../images/imgs1.png) no-repeat -40px -39px;
+}
+.weChat:hover .weChatBox{
+    display: block;
+}
+.qq:hover{
+    cursor: pointer;
+}
+.qq:hover .qqImg{
+    background: url(../images/imgs1.png) no-repeat -69px -39px;
+}
+.qq:hover .qqBox{
+    display: block;
+}
+.foot2{
+    padding-top: 40px;
+    text-align: center;
+}
+.foot2 .footp1{
+    line-height: 24px;
+    font-size: 12px;
+    color: #333;
+    font-family: '微软雅黑';
+}
+.foot2 .footp2{
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    font-family: '微软雅黑';
+}
+.foot2 .footp3{
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    font-family: '微软雅黑';
+}
+.authenticationImg{
+    margin-top: 10px;
+}
+.authenticationImg a{
+    display: inline-block;
+    width: 67px;
+    height: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.authenticationImg a.c1{background:url(../images/footImg/c1grey.png) no-repeat;background-size:100% 100%;margin-left:0;}
+.authenticationImg a.c2{background:url(../images/footImg/c2grey.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c3{background:url(../images/footImg/c3grey.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c4{background:url(../images/footImg/c4grey.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c5{background:url(../images/footImg/c5grey.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c6{background:url(../images/footImg/c6grey.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c7{background:url(../images/footImg/c7grey.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c1:hover{background:url(../images/footImg/c1.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c2:hover{background:url(../images/footImg/c2.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c3:hover{background:url(../images/footImg/c3.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c4:hover{background:url(../images/footImg/c4.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c5:hover{background:url(../images/footImg/c5.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c6:hover{background:url(../images/footImg/c6.png) no-repeat;background-size:100% 100%;}
+.authenticationImg a.c7:hover{background:url(../images/footImg/c7.png) no-repeat;background-size:100% 100%;}
+
+/*活动公共头部底部*/
+.activityTop{
+    width: 100%;
+    min-width: 1120px;
+    background: #333;
+    height: 40px;
+    line-height: 40px;
+}
+.activityTop p a{
+    font-size: 14px;
+    color: #fff;
+    font-family: 'PingFangSC-Semibold';
+}
+.activityTop ul li{
+    float: left;
+    padding-left: 30px;
+}
+.activityTop ul li a{
+    font-size: 14px;
+    color: #c8c8c8;
+    font-family: 'PingFangSC-Semibold';
+}
+.activityFooter{
+    width: 100%;
+    min-width: 1120px;
+    background: #333;
+    height: 40px;
+    line-height: 40px;
+}
+.activityFooter p{
+    text-align: center;
+    font-size: 12px;
+    color: #c8c8c8;
+    font-family: '微软雅黑-Regular';
+}
+/*返回顶部*/
+.fixedBox {
+    bottom: 50px;
+    width: 40px;
+    right: 200px;
+    position: fixed;
+    z-index:99;
+    _position: absolute;
+}
+.fixedBox li{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    background: #fb3945;
+    border-radius: 3px;
+}
+.fixedBox li a{
+    display: block;
+    color: transparent; 
+}
+.fixedBox li.risk p{
+    display: none;
+}
+.fixedBox li.service a{
+    background: url(../images/imgs2.png) no-repeat -5px -265px;
+}
+.fixedBox li.backTop a{
+    background: url(../images/imgs2.png) no-repeat -41px -263px;
+}
+.fixedBox li.risk a{
+    background: url(../images/imgs2.png) no-repeat -80px -265px;
+}
+.fixedBox li:hover{
+    background: -webkit-linear-gradient(right, #ffb88a , #ff4963); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left, #ffb88a , #ff4963); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left, #ffb88a , #ff4963); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to left, #ffb88a , #ff4963); /* 标准的语法 */
+}
+.fixedBox li:hover a{
+    background: none;
+    padding: 2px 6px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'PingFangSC-Semibold';
+}
+.fixedBox li.risk:hover{
+    width: 186px;
+}
+.fixedBox li.risk:hover a{
+    width: 42px;
+}
+.fixedBox li.risk:hover p{
+    padding: 2px 0;
+    display: block;
+    width: 144px;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'PingFangSC-Regular';
+}
+.fixedBox li.risk:hover p span{
+    line-height: 18px;
+}

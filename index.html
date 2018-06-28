@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>瑞钱宝-国企参股 华融天泽参股的互联网金融平台</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+  <link href="src/css/bootstrap.min.css" rel="stylesheet">
+  <link href="src//js/jquery/lib/swiper/dist/css/swiper_v4.min.css" rel="stylesheet">
+  <link href="src/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/src/css/root.0a8db129.css" rel="stylesheet"/>
+  <link href="/src/css/reset.css" rel="stylesheet"/>
+  <!--<link href="/src/css/pc.css" rel="stylesheet"/>-->
+  <link href="/src/css/index.css" rel="stylesheet
+  <style>
+
+    li{height: 360px;}
+  </style>
+</head>
+<body class="homeColor">
+  <input type="hidden" id="refreshed" value="no">
+  <div id="mainContainer">
+
+  </div>
+  <!--<script src="./bundle.js"></script>-->
+  <!--分割代码start -->
+    <script src="./vendor.js"></script>
+    <script src="./root.js"></script>
+  <!--分割代码end -->
+  <script src="/src/js/jquery/jquery-1.10.1.min.js"></script>
+  <script src="/src/js/jquery/jquery.min.js"></script>
+  <script src="/src/js/jquery/bootstrap.min.js"></script>
+  <script src="/src/js/jquery/lib/swiper/dist/js/swiper_v4.min.js"></script>
+  <script src="/src/js/plugin/utils.js"></script>
+  <script>
+			//banner轮播图效果
+			var swiper = new Swiper('.banner_image .swiper-container', {
+				pagination: {
+					el: '.banner_image .swiper-pagination',
+					type: 'fraction',
+					autoplay:3500,
+					speed:800
+				},
+				navigation: {
+					nextEl: '.banner_image .swiper-button-next',
+					prevEl: '.banner_image .swiper-button-prev',
+				},
+			});
+			//底部累计投资金额
+			var swiper = new Swiper('.bg-color .swiper-container', {
+				spaceBetween: 30,
+				centeredSlides: true,
+				autoplay: {
+					delay: 3500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.bg-color .swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.bg-color .swiper-button-next',
+					prevEl: '.bg-color .swiper-button-prev',
+				},
+			});
+		</script>
+</body>
+</html>

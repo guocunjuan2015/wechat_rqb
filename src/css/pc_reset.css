@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* 全局样式定义 Powered by 藏书阁所有*/
+body{ font-family:"Microsoft YaHei", "微软雅黑", "SimSun", "宋体";font-size:14px !important;-webkit-font-smoothing:antialiased}
+*{margin:0;padding:0;}
+a{color:#333;text-decoration: none !important;}
+a:hover{ text-decoration:none;color:#6EA942 !important;}
+img { border:none;}
+ol,ul,li { list-style:none;margin-left:0;margin-bottom:0;}
+ul{margin-left:0;padding-left:0 !important;}
+.clear{clear: both;}
+.clearfix { zoom:1; }
+.fl{float: left;}
+.fr{float: right;}
+.cssanimations [data-am-scrollspy*=animation]{opacity: 1 !important;}
+.ant-modal-header{text-align: center;}
+.ant-modal-footer{display: none;}
+.btn{background:#6EA942;border: 1px solid #6EA942;transition:all .2s ease-in-out;color:#fff}
+.btn:hover,.btn:active{background:#6EA942;border: 1px solid #6EA942; }
+
+
+/*首页导航部分*/
+.containerWidth,.pc_top,footer{margin:auto !important;width:1100px;}
+.pc_logo{float: left;margin-top:10px;width:auto; display: flex;}
+.pc_logo img{width:60px;height:60px;}
+.pc_menu{float:right;padding-top:25px;font-size:16px;}
+.pc_header{
+  position: fixed;left:0;top:0;
+   width:100%;height:78px;display: flex;
+   z-index:999;
+   /*background:#fff;*/
+}
+.fixedNav{
+ position: fixed;left:0;top: 0;width:100%;
+ height:78px;
+ box-shadow: 1px 0 5px #ccc;
+ display: flex;
+ z-index:9999;
+ background:#fff;color:#333 !important;
+}
+
+.ant-menu-horizontal{border-bottom:none !important;}
+.pc_header ul{background: none !important}
+.pc_header li{margin-left: 40px !important;padding:0 !important;color:#fff;background: none !important}
+.pc_header li a{color:#fff !important;}
+.pc_header li a:hover{color:rgba(255,255,255,.8) !important;border-bottom: none !important;}
+.pc_header li:hover{border-bottom: none !important; }
+.fixedNav li a{color:#818b99 !important;}
+.fixedNav li a:hover{color:#6EA942 !important; border-bottom: none !important; }
+.fixedNav li:hover{color:#6EA942 !important; border-bottom: none !important; }
+/*网站底部*/
+.container-bottom{margin-top:120px;height:140px; line-height: 140px;background: #f0f0f0;}
+footer{padding-top:20px;}
+footer ul{float:left;}
+footer li{float: left;margin-right: 12px}
+footer li a{color:#333;}
+footer p{float: right;}

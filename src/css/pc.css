@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* 全局样式定义 Powered by guocunjuan*/
+
+/*网站首页*/
+.section2{margin-top: 70px !important;}
+.section3{margin-top: 290px !important;}
+.section {height:8rem; text-align: center;  color: #fff;clear: both;}
+.section2 p ,.section1{ position: relative;}
+.section3 p { position: relative; bottom: -120%;}
+.section4 p { display: none;}
+.intro-container_l{float: left;padding-top:290px;width: 480px;text-align: left;color:#fff;}
+.intro-container_l .intro-title{font-size: 50px;color:#fff;}
+.intro-container_l .desc{line-height: 50px;font-size: 16px;}
+.intro-container_r{position: relative;float: right;margin-top: 180px;width: 330px;
+height:400px;
+  background:#fff;/*background:rgba(255, 255, 255, 0.21);*/border-radius:10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);//box-shadow: h-shadow v-shadow blur spread color inset;}
+.intro-container_r .ant-input{min-height: 46px !important;padding:10px;background: rgba(255, 255, 255, 0.2) !important;}
+.intro-container_r p{margin:0 15px 0 15px;}
+.intro-container_r .ant-btn{width: 300px;height:40px;font-size: 16px;background: #6EA942;border:1px solid #6EA942;}
+.intro-container_r form{margin-top:26px !important;}
+.fristFullPage form{margin-top:45px !important;}
+.section1{height:100vh;/*max-height:20rem;*/background: url(../images/bannerBg.jpg);background-size:cover;}
+.features-info{margin:240px 0 0 90px;max-width:500px;color:#333;text-align: left;}
+.planImage{margin-left: 220px}
+.section3 .planImage{margin-left: 120px !important;}
+.features-info h3{font-size: 34px;line-height: 80px;}
+.features-info p{font-size0: 16px;line-height: 30px;}
+.feature-2{margin: 180px 0 0 160px}
+.fristFullPage .changeWayHome{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: url(../images/spriteImg.png) 0 0 no-repeat; }
+
+}
+.fristFullPage  .quickLogin{margin-top:70px !important;color:#888;}
+.fristFullPage .scanCode{padding-top: 90px !important;}
+.down{position:absolute;bottom:0;left:50%;z-index: 999;font-size:75px;animation:bouncing-down 2s infinite;
+  color:rgba(110, 169, 66, 0.6);
+  cursor:pointer;
+  transition: all 0.5s linear;
+ }
+@keyframes bouncing-down
+{
+0%,100%,20%,50%,80%{transform:translateY(0)}
+40%{transform:translateY(-30px)}
+60%{transform:translateY(-15px)}
+}
+
+
+/*登录*/
+.loginBg{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background: url(../images/loginBg.jpg) no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.loginTitle{padding:90px 0 40px 0;font-size:20px;color:#fff;opacity: .7;text-align: center;}
+/*.ant-menu-item-selected,.pc_menu li:hover{color:#6EA942 !important;border-bottom:none !important;}*/
+.site_info{width:550px;margin:auto;}
+.pcLogin{
+  position: relative;
+  padding:14px 0 20px 0;
+  /*height:300px;*/
+  background:rgba(0, 0, 0, 0.21);border-radius:10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);//box-shadow: h-shadow v-shadow blur spread color inset;
+}
+
+.pcLogin input{width:340px;height:35px;color:#fff;border-radius:20px;background: rgba(255, 255, 255, 0.2) !important;}
+.pcLogin .ant-input-affix-wrapper{width: auto !important;}
+.pcLogin p {text-align: center;}
+.pcLogin .forgetPassword{margin-left:110px;text-align: left;}
+.ant-checkbox-inner{background:#6EA942 !important;border-color:#6EA942 !important;}
+.pcLogin button{width:340px;height:35px;border-radius:20px;text-align: center;background:#6EA942;border: 1px solid #6EA942;}
+.pcLogin button:hover{background:#6EA914 !important;border: 1px solid #6EA914 !important;}
+.pcLogin .anticon{color:#fff !important;}
+.isAccount{margin-top:30px;text-align: center;color:#fff;}
+.isAccount a{color:#6EA942;}
+.quickLogin{font-size:16px;text-align: center;color:#fff;}
+.poptip{position: absolute;top:10px;right:60px;padding:4px 10px;border:1px solid #d9d9d9;color:#fff; background: rgba(255, 255, 255, 0.2) !important}
+.poptip span{position: absolute;top:8px;right:-6px;width:0;height:0;border-left: 6px solid #fff;border-top: 6px solid transparent;border-bottom: 6px solid transparent;display: inline-block;}
+.ant-form-explain{margin-left: 110px;}
+/*注册*/
+.scanCode{padding-top:20px;margin:25px auto 10px;width:160px;height:160px;text-align: center;background: rgba(255, 255, 255, 0.1);border-radius:10px }
+.getCode{position: relative;top:0;}
+.getCode .ant-input{padding-left:14px !important;}
+.getCode span{position:absolute;top:4px;right:142px;color:#fff;}
+.changeWaysLogin{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: url(../images/spriteImg.png) 0 -60px no-repeat; }
+
+}
+
+/*关于我们*/
+.aboutUsZone img{padding: 90px 0 60px 0;}
+.aboutUsZone h3{margin-top:30px;font-size: 18px;}
+.aboutUsZone p{line-height: 40px;}

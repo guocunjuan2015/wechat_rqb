@@ -1,0 +1,82 @@
+$borderColor:#DEDEDE;
+$fontSize12:1.2rem;
+$fontSize14:1.4rem;
+$fontSize16:1.6rem;
+$fontSize18:1.8rem;
+$fontSize20:2rem;
+$marginBottom:1rem;
+$marginTop:1.4rem;
+$padding20:2rem;
+.personalInfos{
+  li{
+   margin-top:$marginBottom;line-height:5rem;border-bottom:1px solid $borderColor;font-size:$fontSize18;
+   span{color:#C7C7CC;}
+  }
+  .fa-angle-right{margin:$marginTop 0 0 $marginTop;}
+}
+
+.sysInfos_list {
+  li{
+      margin-bottom:2rem;
+      padding-bottom:$padding20;
+      line-height: 2.8rem;
+      font-size:$fontSize14;
+      border-bottom:1px solid $borderColor;
+      color:#9B9B9B;
+    p{
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;font-size:$fontSize18;color:#333;
+    }
+    div{
+      margin-top:1.6rem;
+      font-size:$fontSize18;color:#333;
+
+    }
+  }
+}
+
+/*充值*/
+.recharge_withdrawList li{
+    padding-bottom:1.5rem;
+    margin-bottom:2rem;
+    border-bottom:1px solid $borderColor;
+    font-size:$fontSize18;
+    #account_balance,#coupons_nums{color:#FA4E64;}
+    .bank_icon img{width:3.8rem;height:3.8rem;}
+    .cardNum{display: block;}
+    input{width:80%;height:3rem; background:none }
+    .fontSize20{font-size: $fontSize20;}
+    .fa-angle-right{margin-left:1rem;}
+
+}
+.recharge_withdrawList  p{line-height: 2.5rem}
+.marTop{
+    margin-top:10rem;
+}
+.btnT_button{margin:0 1rem;}
+.btnB_border{margin-bottom:$marginBottom;padding-bottom:$marginBottom; text-align: center;border-bottom:1px solid $borderColor;}
+.btnB_border img{width:10rem;height:1.6rem; }
+.withdraw_buttonB{
+
+    .withdraw_fee{
+        margin-bottom:$marginBottom;
+        line-height: 2.5rem;
+        color:#4A4A4A;
+        font{margin-left:2rem;color:#FA4E64;}
+        .question_mark{margin:.5rem 0 0 .5rem;width:1.5rem;height:1.5rem;}
+    }
+    .unityButton{width:14rem;}
+}
+.withdrawFee_dirlog h4{line-height:5rem;font-size:1.8rem; }
+.withdrawFee_dirlog p{line-height:2.5rem;text-align: center;}
+.noCoupons{margin:2rem 0;font-size: 2.5rem;color:#DEDEDE;}
+.coupons_dirlog{padding:1.5rem;}
+.coupons_dirlog li{
+      margin-bottom:2rem;
+      color:#DEDEDE;
+      font-size: 1.4rem;
+      font{margin-right: 1.8rem;font-size: 2rem;color:#333;}
+      font span{margin-left:.2rem;font-size: 1.2rem}
+}

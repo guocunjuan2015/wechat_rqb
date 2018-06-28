@@ -1,0 +1,179 @@
+﻿body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;
+    padding:0;
+
+}
+html {font-size: 62.5%; /*10 ÷ 16 × 100% = 62.5%*/}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+img{max-width: 100%;height: auto;width: auto\9;vert-align: top;}
+ /*移动端图片边框   相当于  border:0*/
+h1,h2,h3,h4,h5,h6{font-weight: bold}
+
+a,
+input,
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border:none;
+    color:#666666;
+
+}
+/*-webkit-tap-highlight-color:rgba(0,0,0,0);透明度设置为0，去掉点击链接和文本框对象时默认的灰色半透明覆盖层(iOS)或者虚框(Android)*/
+input::-webkit-input-placeholder{
+           color:#B3B2B4;
+}
+input，textarea{outline:none}
+/*//取消chrome下默认的文本框聚焦样式*/
+
+/*  -webkit-appearance: none;*/
+/*//消除输入框和按钮的原生外观，在iOS上加上这个属性才能给按钮和输入框自定义样式*/
+
+/*  -webkit-user-select: none;*/
+/*// 禁止页面文字选择 ，此属性不继承，一般加在body上规定整个body的文字都不会自动调整*/
+   input,
+   button {
+
+       border-radius: 0;
+
+   }
+
+/*//去掉IOS移除原生控件样式*/
+
+/*  -webkit-touch-callout:none;*/
+/*// 禁用长按页面时的弹出菜单*/
+
+   body {
+       margin: 0;
+       color:#666 !important;
+   }
+/*//禁止移动端用户进行复制.选择.*/
+
+  body * {
+
+      font-family: Helvetica;
+  }
+
+body {
+    -webkit-text-size-adjust: 100%;
+}
+.clear { display:block !important; clear:both !important; float:none !important; margin:0 !important; padding:0 !important; height:0; line-height:0; font-size:0; overflow:hidden;}
+.clearfix { zoom:1; }
+.clearfix:after { content:""; display:block; clear:both; height:0; }
+.fl{float: left}
+.fr{float: right;}
+.grad {
+    width: 100%;
+    height:3.5rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    color:#fff;
+    border-radius: 6px;
+    background: -webkit-linear-gradient(left, #ffb88a , #ff4963); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left, #ffb88a , #ff4963); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left, #ffb88a , #ff4963); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #ffb88a , #ff4963); /* 标准的语法 */
+}
+.mr10{margin:0 1rem;}
+.h_title{
+  position: relative;
+    margin:0 0 2rem 0;line-height: 5rem;font-size:2rem;
+}
+.h_title_border{border-bottom: 1px solid #ddd}
+.homeTitle b{font-size:2rem;font-family: 'PingFangSC-Regular';}
+.userTitle{margin-bottom:2rem;   line-height: 3.5rem;font-size:2rem;font-family: 'PingFangSC-Regular';}
+.unityButton{color:#fff;border-radius:4px;}
+.hFont4{font-size: 0.4rem}
+.clearImg{position: absolute; width: 16px; height: 16px; margin: 6px 0 0 -20px; }
+
+/*白色背景*/
+.bg-color{padding:1.5rem 2rem 1.5rem 2rem;margin-bottom:2rem;background:#fff;}
+.homeColor{background:#F5F5F5; }
+.set_gray{
+    height: 3.5rem;
+    line-height: 3.5rem;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    -webkit-filter: grayscale(100%);
+}
+
+.gray{background:#D9DBDF ;color:#fff;}
+
+.panel{
+    padding:1.5em 1.5rem 1rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 3px 1px rgba(0,0,0,.05);
+    border:none;
+}
+.my_subject_panel{margin-top:1.6rem;}
+
+/*覆盖ant样式*/
+.ant-tabs-ink-bar{background: none;}
+.ant-tabs-bar{border-bottom:none;}
+.ant-tabs-nav .ant-tabs-tab{padding:0;margin-right: 0;}
+
+/*右箭头*/
+.fa-angle-right{color:#C7C7CC;font-size:2.5rem}
+/*公共遮罩层*/
+.bg{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top: 0;
+    z-index:999;
+    width:100%;
+    height:100%;
+    position: fixed;
+    background:rgba(0,0,0,0.5);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7Fffffff,endColorstr=#7Fffffff);
+    display:none;
+}
+
+.dirlog{
+    position: fixed;
+    width:80%;
+    top: 6rem;
+    left:10%;
+    right:10%;
+    padding:1.5rem 0;
+    background: #fff;
+    z-index:99999;
+    background-size:contain;
+    border-radius:12px;
+    display:none;
+}
+.close_layer{margin-top:4rem;font-size:1.8rem; font-weight: bold; color:#2794F0;}
+.dirlog h4{text-align:center;}
+.isShow{display: inline-block;}
+.isHide{display:none;}
+
+
+/*覆盖bootstrap*/
+.navbar-toggle .icon-bar{background:#B3B2B3;}
+.resetBootrap .progress{overflow:inherit !important;height:auto;margin-bottom:auto;border-radius:0;background-color:inherit;}
+
+/*统一底部导航栏*/
+.myHome footer{position:fixed;bottom:0;width:100%;z-index:999;height:6rem;background:#fff;border-top:1px solid #DCDBDB;}
+.myHome footer ul{display:-webkit-box;display:box;}
+.myHome footer li{
+    width: 98%;
+    -moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+    -webkit-box-pack: center;
+    box-pack: center;
+    text-align:center;
+}
+.myHome footer li font{display: block;margin-top:1rem;font-size:1.4rem;}
+.myHome footer li a{font-size:1rem;line-height:2.2rem;color:#9B9B9B;}
+.myHome .financeIcon{height:2.2rem;background: url(../images/financeIcon.png)  center no-repeat !important;background-size:2.1rem 2rem !important;}
+.myHome .homeIcon{height:2.3rem;background: url(../images/homeIcon.png)  center no-repeat !important;background-size:2.1rem 2rem !important;}
+.myHome .personalIcon{height:2.2rem;background: url(../images/personalIcon.png)  center no-repeat !important;background-size:2.1rem 2rem !important;}
+.home_area .homeIcon{height:2.3rem;background: url(../images/homeRedIcon.png)  center no-repeat !important;background-size:2.1rem 2rem !important;}
+.personalcenter_area .personalIcon{height:2.2rem;background: url(../images/personalRedIcon.png)  center no-repeat !important;background-size:2.1rem 2rem !important;}
+.finacelist_area .financeIcon{height:2.2rem;background: url(../images/financeRedIcon.png)  center no-repeat !important;background-size:2.1rem 2rem !important;}

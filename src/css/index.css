@@ -1,0 +1,186 @@
+
+/*首页*/
+.income_card{height:8rem;background: #fff;}
+.income_card ul{display:-webkit-box;display:box;color:#C2C2CB;}
+.income_card li{margin-top:2rem;width:98%;-moz-box-flex:1;-webkit-box-flex:1;box-flex:1;text-align: center
+}
+.income_card b{font-size:1.8rem;color:#8E8E8F;}
+.aboutUs li{float: left;width:45%;height:3rem;line-height:3rem;text-align: center;border-radius:6px;color:#B6BBC4;}
+.aboutUs li:last-child{margin-left: 10%;}
+.homeTitle{position: relative;line-height:5.5rem;}
+.homeTitle b{font-size:2rem;}
+.homeTitle .fa-commenting,.homeTitle .fa-cog,.h_title .fa-commenting,.h_title .fa-cog{margin-top:1.5rem;font-size:2rem;color:#AAAAAA;}
+.homeTitle font,.h_title font{position:absolute;top:1rem;right:-0.4rem;width:8px;height:8px;background:#FF4F65;border-radius:50%;}
+.homeTitle .fa-cog,.h_title .fa-cog{margin-right:2rem;}
+.project_rate_icon{padding:0.4rem 0.8rem 0.4rem 0.8rem;margin-left:1rem; font-weight:normal;font-size:1.4rem;color:#FD7F7F;border-radius:20px;border:1px solid #FCC5C5;background:#FBE9E9;}
+.porject_title{height:4.5rem;font-size: 2rem;}
+.project_span{margin-top:.3rem;font-size: 2rem;}
+.home_project_rate b{font-size:2.5rem;color:#FF5555;}
+.home_project_rate span{font-size:1.4rem;}
+.home_projectInfo p,.invest_amount_span p{line-height:2.5rem;font-size:1.4rem;color:#999;}
+.home_project_time{margin:.5rem 0 0 5rem;}
+.home_project_time b{font-size:1.8rem;}
+.home_project_time p{line-height:3rem;}
+.project_arrow_right{margin-top:.4rem;font-family: "宋体";font-weight:normal;font-size:1.6rem;color:#999;display:inline-block}
+.invest_amount_span b{font-size:2rem;color:#666666;}
+.invest_amount_panel img{margin:-1rem 0 0 4rem;width: 11.7rem;}
+.bg-color .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction
+ {
+     right:0;
+     left:auto;
+     bottom:-.6rem;
+     width:auto;
+ }
+.bg-color .swiper-pagination-bullet{width:1.8rem;height:.4rem;border-radius:0;}
+.bg-color  .swiper-container{height:6rem;}
+.banner_image{margin-bottom:1.6rem;}
+.banner_image .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction
+{
+    right:0;
+    left:auto;
+    top:-.2rem;
+    width:auto;
+}
+.banner_image p{margin-bottom:1.6rem;font-size:1.6rem;color:#666;}
+.invest_amount_panel{margin-bottom:8rem;}
+
+/*
+注册成功
+*/
+.register_success{margin-top:4rem !important;text-align: center;}
+.register_success h4{margin:2rem 0 4.5rem 0;font-size: 2.5rem}
+.unityButton{width:100%;height:4rem;font-size:1.8rem;}
+.register_success a{margin-top:1rem;font-size:1.4rem;display: block;text-decoration:underline;}
+
+/*登录*/
+.loginForm,.registerForm,.register_success{margin:0 1rem;}
+.loginForm li,.registerForm li{position:relative;margin:1rem 0 2rem 0;line-height:4rem;border-bottom:1px solid #DEDEDE;}
+.loginForm span,.registerForm span{width:18%;font-size:2rem;font-weight: bold;display:inline-block;}
+.loginForm input,.registerForm input{margin-left:1rem;width:70% !important;font-size:1.6rem;color:#9B9B9B;background: none}
+.loginForm .forgetPassword{margin:1rem 0 2rem 0;font-size:1.6rem;text-align: center;}
+.registerEnter{margin:1rem;text-align: center;font-size:1.8rem;}
+.loginForm button,.registerForm button{margin-top:12rem;}
+.registerForm .safe_code{width: 50% !important;}
+.registerForm #getSafeCode{position: absolute;width: 30% !important;height:3.2rem;line-height:3.2rem;background: none !important;border:1px solid #B3B2B3; border-radius: 4px;}
+/*注册*/
+.registerForm input{width:100%;}
+.agreementP{margin-bottom:4rem;font-size: 1.4rem}
+.agreementP a{color:#FF4963;}
+
+
+/*设置密码*/
+.resetPassword .unityButton{margin-top:3rem;}
+.resetPassword .clearImg{top: 1px;  right: 0;}
+.hideShowPassword-toggle{right:20px !important;top:80% !important;width:3.7rem;height:2.5rem; background: url("../images/hidePasswodImg.png") no-repeat;background-size:50%;text-indent: -9999em; }
+.hideShowPassword-toggle-hide {
+    background-position: -44px center;
+}
+
+
+/*个人中心*/
+.accountPanel{padding:2rem 1.5rem 1rem 1.5rem;}
+.financesPanel{padding:1rem 1.5rem 1rem 1.5rem;}
+.total_assets p,.incomes p{line-height:1.8rem;font-size:1.2rem;color:#C2C2CB;}
+.total_assets b{font-size:2rem;color:#575866;}
+.incomes{float: left;margin-top:2rem;width: 50%;}
+.incomes b{font-size:1.6rem;color:#8E8E8F;}
+.account_branch ul{display: -webkit-box;display: box;clear: both}
+.account_branch li{margin-top:2rem;line-height:2.6rem;font-size:1.2rem;color:#C2C2CB;-moz-box-flex: 1;-webkit-box-flex: 1; box-flex:1;text-align: center;}
+.account_branch li:first-child{text-align: left;}
+.account_branch img{width:4rem;}
+.financesPanel li{line-height:3.3rem;font-size:1.6rem;border-bottom: 1px solid #EBEBEB;font-family: 'PingFangSC-Regular';}
+.financesPanel .fa{float: right;margin-top:.8rem;font-size: 2.6rem;color:#B2B2BC;}
+.financesPanel li:last-child{border-bottom:none;}
+.financesPanel li span{display: inline-block}
+.financesPanel .finances_icon{padding-left:3.5rem;background: url(../images/sprites.png) -2px 4px   no-repeat;}
+.financesPanel .finances_yue{padding-left:3.5rem;background: url(../images/sprites.png) -2px -26px   no-repeat;}
+.financesPanel .finances_risk{padding-left:3.5rem;background: url(../images/sprites.png) -2px -60px   no-repeat;}
+.personal_ad{margin-bottom:7rem;}
+
+/*我的约标*/
+.subject_image{max-width: none; width: 10rem;}
+.subject_info{margin:2rem 0 0 1rem;color:#938F83;}
+.subject_info h4{margin-bottom: 1rem;font-size: 1.8rem}
+.subject_info p{line-height: 2rem}
+.subject_project_rate b{margin-bottom:0.2rem;font-size:3.4rem;color:#FF4963;display: inline-block}
+.subject_project_rate b span,.subject_project_rate font{font-size: 2rem}
+.subject_project_rate font{color:#FF4963; font-weight: bold;}
+.subject_project_time,.subject_project_rate{width:40%;font-size: 1.4rem;color:#C2C2CB;}
+.subject_project_time{width:30%;}
+.subject_project_time b{margin:.1rem 0 0.2rem 0;height:4rem;font-size:2.6rem;color:#8E8F99;display: inline-block}
+.subject_project_time b span{font-size: 1.4rem;}
+.goBuyIng{margin-top:2.46rem;width:30%;}
+.subject_title{margin-bottom:1.8rem;font-size: 2rem;}
+.rate_icon{margin-left:1rem;padding:0.7rem 2rem 0.55rem 2rem;font-size:1.4rem;background: #4CCDA8; border-radius: 6px;color:#fff; display: inline-block}
+.no_subject{display: none;}
+
+/*我的礼物*/
+.myGift_navbar{position: relative;right: 0;left:0;background: #fff}
+.myGift_navbar .navbar-collapse{position:absolute;top:0;width:100%;background: #fff;z-index:99999;}
+.myGift_navbar li{margin-bottom: 2rem;font-size:1.8rem;border-bottom: 1px solid #F3F3F3;display:flex;}
+.layer_title{margin-bottom: 1.8rem;line-height: 5rem;font-size: 2.4rem;border-bottom: 1px solid #F3F3F3;}
+.layer_title span{margin-top:.3rem;font-size: 4rem;color:#B3B2B3;}
+.coupon_info{float: left;max-width:30rem; }
+.coupon_img{float: right}
+.couponNums{line-height: 2.8rem}
+.coupon_info{font-size: 1.2rem}
+.couponSource,.is_use{color:#9B9B9B;}
+.couponNums b{font-size: 2.6rem}
+.couponPanel_b{margin-top:1.6rem;height:3rem;line-height:3rem;font-size: 1.2rem;border-top:1px solid #DEDEDE }
+.dead_line{padding-right:1.5rem;color:#FF4963;}
+
+/*我的出借*/
+.finace_title .ant-tabs-nav .ant-tabs-tab{float: left;margin-right:1rem;line-height:5rem;font-size:2.2rem;color:#C2C2CB; }
+.ant-tabs-nav .ant-tabs-tab-active{color:#333 !important}
+.ant-tabs-nav-wrap{border-bottom: 1px solid #ddd}
+.finace_title .ant-tabs-content{margin-bottom:4rem;}
+/*个人中心我的投资*/
+.myinvest-icons{margin-top:2rem;padding-top:1.5rem;border-top: 1px solid #ddd;clear: both;}
+.myinvest-icons span{margin-right:1.5rem;padding:.5rem 1.2rem;border-radius: 6px;color:#fff;display: inline-block;}
+.green-icons{background: #4CCDA8;}
+.red-icons{background: #FF4963;}
+.bule-icons{background: #27B4F5;}
+.incomes_panel{
+  padding:2rem 1.5rem 1rem 1.5rem;
+  border-radius: 8px;
+  background: -webkit-linear-gradient(top, #ffb88a , #ff4963); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(top, #ffb88a , #ff4963); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(top, #ffb88a , #ff4963); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to top, #ffb88a , #ff4963); /* 标准的语法 */
+}
+.incomes_panel .total_assets{margin-bottom:1rem;}
+.incomes_panel p{line-height: 2.6rem;font-size: 1.6rem;color: #fff;}
+.incomes_panel b{font-weight: normal;color: #fff;font-size: 2.6rem}
+.invest_titile_list .ant-tabs-nav{width: 100%}
+.invest_titile_list .ant-tabs-nav .ant-tabs-tab{margin:1.5rem 1.6rem 0 0;font-size: 2rem;color: #C2C2CB;}
+.invest_titile_list .ant-tabs-nav .ant-tabs-tab-active{color:#333}
+.my_investInfo b{color:#8E8F99;}
+.my_investInfo p{font-size: 1.6rem;color:#C2C2CB;}
+.my_investInfo b span{font-size: 1.6rem;color:#C2C2CB;}
+.my_investInfo div{width: 50%;}
+
+/*我的账户-我的理财详情*/
+.myinvest_details li{margin-bottom:2.4rem;font-size:2rem;}
+.myinvest_details li span{font-size:2.4rem;}
+.myinvest_details li span font{font-size:1.4rem;}
+.myinvest_details li:first-child + li +li
+{padding-bottom:2.5rem;border-bottom: 1px solid #ddd;}
+.myinvest_details .myinvest-icons span{font-size: 1.4rem;}
+.myinvest_details .i_target_time{font-size:1.6rem;color:#C2C2CB;}
+
+/*我的账户-回款计划*/
+.repayPlan_info p,.repay_totals p{float: left;width:33.33%;line-height: 2.6rem;text-align: right}
+.repay_totals p{text-align: left;}
+.repayPlan_info p:first-child{text-align: left;}
+.repay_totals p:first-child{width: 20%;margin-right: 2rem;text-align: center}
+.repay_totals p:last-child{margin-left: 1rem;}
+.repayPlan_info span,.repay_totals span{display: block;}
+.periodsNum{padding-top:1.5rem;margin-top:1.8rem;border-top: 1px solid #ddd;}
+.repay_totals{padding:1.5em 1.5rem 1rem 1.5rem;background: #fff;}
+
+/*我的账户-资金明细*/
+.fundsDetails li{margin-bottom:2.4rem;padding-bottom:1.5rem;font-size: 1.8rem;border-bottom: 1px solid #ddd;}
+.fundsDetails font{display: block;font-size: 1.4rem;color:#C2C2CB;}
+.fundsDetails span{font-size:2rem;}
+.interest_plus{color:#FF4963;}
+.interest_less{color:#4990E2;}

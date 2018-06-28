@@ -1,0 +1,130 @@
+.calendar {
+  display: none;
+  width: 540px;
+}
+.calendar-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.calendar-title a.title {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    color:#666;
+}
+#backToday {
+  display: none;
+}
+.calendar-title .arrow {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: -50px;
+    width: 102px;
+}
+.calendar-title .arrow span {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.calendar-title .arrow-prev {
+  float: left;
+  width:9px;
+  height:9px;
+  background: url(../../../images/imgs1.png) left -48px no-repeat;
+    margin-top: 10px;
+}
+.calendar-title .arrow-next {
+  float: right;
+  width:9px;
+  height:9px;
+  background: url(../../../images/imgs1.png) left -37px no-repeat;
+      margin-top: 10px;
+}
+.calendar-week,
+.calendar-date {
+  overflow: hidden;
+}
+.calendar-week .item,
+.calendar-date .item {
+    float: left;
+    width: 76px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px #e6e6e6 solid;
+    border-collapse: collapse;
+    display: table-cell;
+    font-size: 16px;
+    border-bottom: 0;
+    text-align: center;
+    border-right: 0;
+}
+.calendar-week,.calendar-date {
+      width: 533px;
+    display: table;
+    border-right: 1px #e6e6e6 solid;
+}
+.calendar-week{
+  background: #f6f6f6;
+}
+.calendar-date {    border-bottom: 1px solid #e6e6e6;}
+.calendar-date .item {
+  cursor: pointer;
+  font-size: 14px;
+      color: #eee;
+}
+.calendar-date .item-curMonth {
+  color: #666;
+}
+.calendar-date .item:hover,
+.calendar-date .item-curMonth:hover {
+  background-color: #f0f0f0;
+  color: #666;
+}
+.calendar-date .item-curDay,
+.calendar-date .item-curDay:hover {
+  color: #fff;
+  background: -webkit-linear-gradient(right, #ffb88a , #ff4963); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(left, #ffb88a , #ff4963); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(left, #ffb88a , #ff4963); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to left, #ffb88a , #ff4963); /* 标准的语法 */
+}
+.calendar-today {
+ /*  display: none; */
+  opacity: 0;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 130px;
+  padding: 6px 10px;
+  background-color: rgb(255,255,255);
+  border:1px solid #ebebeb;
+}
+.calendar-today .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    margin-top: -5px;
+    overflow: hidden;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.calendar-today p {
+  color: #666666;
+  font-size: 12px;
+  line-height: 18px;
+}
