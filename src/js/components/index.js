@@ -57,7 +57,7 @@ class Index extends React.Component{
           ?
            this.state.bannerList_data.map((bannerListItem,index)=>(
              <div className="swiper-slide">
-               <p>{bannerListItem.webTitle}</p>
+               <p>{bannerListItem.webTitle} 1111</p>
                <img src={bannerListItem.bannerImageUrl} alt={bannerListItem.webTitle} />
              </div>
           ))
